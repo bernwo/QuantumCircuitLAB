@@ -4,7 +4,7 @@
 
 Advantage of this package is that the user would be able to leverage the computational speed of `MATLAB` compared to using other languages such as `Python`. In my own experience, I've found that the speed of doing similar computations in `Python` *(even with `Numba`)* is way too slow.
 
-*Warning: The package does not automatically check if you have enough RAM, so don't try to initialise a density matrix that has size ~100 qubits. It will most likely freeze your PC.:)*
+*Warning: The package does not automatically check if you have enough RAM, so don't try to initialise a density matrix that has size ~100 qubits. It will most likely freeze your PC. :)*
 
 ## How to use this package?
 
@@ -134,7 +134,7 @@ The functions that are provided by this package are as listed below (in no parti
 * `CZ` - *Two-qubit controlled-Phase gate*.
     * *Example*
         > Similar to CX.
-* `SWAP` - *Two-qubit controlled-Phase gate*.
+* `SWAP` - *Two-qubit Swap gate*.
     * *Example*
         > ```MATLAB
         > % Using diracnotation to display the density matrix.
