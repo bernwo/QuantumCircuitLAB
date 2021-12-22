@@ -105,7 +105,7 @@ The functions that are provided by this package are as listed below (in no parti
 * `X` - *Single-qubit Pauli X gate*.
     * *Example*
         > ```MATLAB
-        > % Using diracnotation to display the density matrix.
+        > % Apply single-qubit X gate on multiple qubits at once.
         > qubits = [1 2 3]; % qubits' indices.
         > a = densitymatrix(1,1,0); % state |110⟩⟨110|.
         > b = X(a,[qubits(1) qubits(3)]); % state |011⟩⟨011|.
